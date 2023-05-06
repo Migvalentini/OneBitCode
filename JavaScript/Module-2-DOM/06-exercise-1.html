@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exercise 1</title>
+</head>
+<body>
+   <h1>Exercise 1</h1>
+
+   <h2>Pick Up Team:</h2>
+   <p>
+      <label for="add_name">Name:</label>
+      <input type="text" name="add_name" id="add_name"> <br><br>
+
+      <label for="add_position">Position:</label>
+      <input type="text" name="add_position" id="add_position"> <br><br>
+
+      <label for="add_number">Shirt Number:</label>
+      <input type="text" name="add_number" id="add_number"> <br><br>
+
+      <button id="add_player" onclick="add_player()">Add a Player</button>
+   </p>
+   <h2>Remove Player:</h2>
+   <p>
+      <label for="remove_number">Shirt Number:</label>
+      <input type="text" name="remove_number" id="remove_number"> <br><br>
+
+      <button id="remove_player" onclick="remove_player()">Remove a Player</button>
+   </p>
+
+   <ol id="team"></ol>
+
+
+   <script src="./scripts/06-exercise-1.js"></script>
+</body>
+</html>

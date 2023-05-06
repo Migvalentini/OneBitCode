@@ -1,0 +1,17 @@
+{
+  "name": "module-3-modern-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "hello-world-npm": "^1.1.1",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "hello": "npx hello-world-npm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

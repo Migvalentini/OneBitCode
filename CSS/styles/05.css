@@ -1,0 +1,23 @@
+* {
+   color: gray;
+}
+
+li a { /*Every a tag in the li*/
+   background-color: darkgray;
+}
+
+li > a { /*Only child elements*/
+   background-color: red;
+}
+
+h1 + h3 { /*Every tag that comer right after another*/
+   border: 2px solid black;
+}
+
+a[href='#'] {
+   padding: 5px;
+}
+
+li:nth-of-type(2) { /*odd or even*/
+   color: rgb(46, 6, 46);
+}

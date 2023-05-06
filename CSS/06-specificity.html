@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Specificity</title>
+   <link rel="stylesheet" href="styles/06.css">
+</head>
+<body>
+   <!--
+      Composta por 4 números: (a,b,c,d)
+      Quanto mais a esquerda, maior a relevância
+         - Cada elemento / pseudo elemento => d = +1 (0,0,0,1)
+         - Cada classe / pseudo classe / atributo => c = +1 (0,0,1,0)
+         - Cada ID => b = +1 (0,1,0,0)
+         - Estilo Inline => a = +1 (1,0,0,0)
+
+      Quando há empate, será considerado o último seletor a ser declarado
+   -->
+   <div id="container">
+      <ul>
+         <li>Example</li>
+      </ul>
+   </div>
+</body>
+</html>

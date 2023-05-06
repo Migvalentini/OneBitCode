@@ -1,0 +1,15 @@
+/*div {
+   color: blue;
+}
+
+div ul li {
+   color: red;
+}*/
+
+div {
+   border: 2px solid black;
+}
+
+div ul {
+   border: inherit; /*Herda os elementos do pai*/
+}

@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Olá, mundo!",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus inventore voluptatem, eum repellat sed officiis aliquam",
+      "author": "Miguel"
+    },
+    {
+      "id": 2,
+      "title": "Requisições POST com Javascript",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus inventore voluptatem, eum repellat sed officiis aliquam",
+      "author": "Isaac"
+    },
+    {
+      "title": "Programming",
+      "author": "Miguel",
+      "content": "Miguel is learning to program",
+      "id": 3
+    },
+    {
+      "title": "idk",
+      "author": "desconhecido",
+      "content": "idk what to write here",
+      "id": 4
+    }
+  ]
+}

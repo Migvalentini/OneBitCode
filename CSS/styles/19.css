@@ -1,0 +1,21 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+.container {
+   min-height: 100vh;
+   background-color: gray;
+   display: grid;
+   /*grid-template-columns: 25% 50% 25%; define a porcentagem de cada coluna. Usar porcentagem ou frames*/
+   /*grid-template-columns: 1fr 2fr 1fr;*/
+   grid-template-columns: repeat(2, 1fr);/*define o n° de colunas e quantos frames para cada*/
+   /*grid-template-rows: repeat(3, 1fr);define o n° de linhas e quantos frames para cada*/
+   gap: 10px 15px; /*o 1° é a distância entre as linhas e o 2° é a distância entre as colunas*/
+   grid-auto-rows: minmax(210px, 100%); /*tamanho mínimo e máximo do conteúdo*/
+}
+.item {
+   font-size: 30px;
+   background-color: white;
+   border: 2px solid black;
+   padding: 10px;
+}

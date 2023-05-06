@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Exercise</title>
+</head>
+<body>
+   <header>
+      <nav>
+         <p><a href="15-exercise-site-1.html"><img src="images/logo.png" alt="Logo"></a><a href="15-exercise-site-2.html">The Spaceships |</a><a href="15-exercise-site-3.html">Hire Us</a></p>
+      </nav>
+      <hr>
+   </header>
+
+   <main>
+      <h2>Hire Us Now</h2>
+      <p>Leave a message to request one of our services and we will get back to you as soon possible</p>
+      <form>
+         <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+         </div>
+         <br>
+         <div>
+            <label for="spaceships">Spaceship: </label>
+            <select name="select" id="spaceships">
+               <option value="Falcon 9">Falcon 9</option>
+               <option value="Falcon Heavy">Falcon Heavy</option>
+            </select>
+
+            <label for="services">Tyoe of Service: </label>
+            <input type="search" name="services" id="services" list="service">
+            <datalist id="service">
+               <option value="Service Number 1"></option>
+               <option value="Service Number 2"></option>
+               <option value="Service Number 3"></option>
+               <option value="Service Number 4"></option>
+            </datalist>
+         </div>
+         <br>
+         <div>
+            <input type="submit" value="Confirm">
+         </div>
+      </form>
+   </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+   width: 100vw;
+   height: 70px;
+   background-color: black;
+}
+
+img#rock {
+   width: 50px;
+   height: 50px;
+}
+
+img#logo {
+   width: 250px;
+   height: 70px;
+}
+
+#btns {
+   display: flex;
+   gap: 10px;
+}
+
+#btns > button {
+   font-size: 1.2em;
+   padding: 5px 10px;
+   border: 2px solid  white;
+   border-radius: 10px;
+   background-color: transparent;
+   color: white;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+#btns > button:hover {
+   border: 2px solid rgb(255, 0, 58);
+   color:rgb(255, 0, 58);
+   border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Forms in Javascript</title>
+</head>
+<body>
+    <h1>Working with Forms</h1>
+    <hr>
+
+  <h2>Assemble Order</h2>
+
+  <form id="orderForm">
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br><br>
+
+    <label for="address">Delivery Address:</label>
+    <br>
+    <input type="text" name="address" id="address">
+    <br><br>
+
+    <label for="breadType">Bread Type:</label>
+    <br>
+    <select name="breadType" id="breadType">
+      <option selected disabled>Select an option...</option>
+      <option value="3 Chesses">3 Cheeses</option>
+      <option value="Parmesan and Oregano">Parmesan and Oregano</option>
+      <option value="9 Grains">9 Grains</option>
+      <option value="White Italian">White Italian</option>
+      <option value="Salty Granola">Salty Granola</option>
+      <option value="Spiced Butter">Spiced Butter</option>
+    </select>
+    <br><br>
+
+    <label for="main">Main:</label>
+    <br>
+    <input type="radio" name="main" id="main1" value="Meat">
+    <label for="main1">Meat</label>
+    <input type="radio" name="main" id="main2" value="Chicken">
+    <label for="main2">Chicken</label>
+    <input type="radio" name="main" id="main3" value="Vegan">
+    <label for="main3">Vegan</label>
+    <br><br>
+
+    <label for="salad">Salad:</label>
+    <br>
+    <input type="checkbox" name="salad" id="salad1" value="Lettuce">
+    <label for="salad1">Lettuce</label>
+    <input type="checkbox" name="salad" id="salad2" value="Tomato">
+    <label for="salad2">Tomato</label>
+    <input type="checkbox" name="salad" id="salad3" value="Olives">
+    <label for="salad3">Olives</label>
+    <input type="checkbox" name="salad" id="salad4" value="Carrots">
+    <label for="salad4">Carrots</label>
+    <input type="checkbox" name="salad" id="salad5" value="Pickles">
+    <label for="salad5">Pickles</label>
+    <br><br>
+
+    <label for="observations">Observations:</label>
+    <br>
+    <textarea name="observations" id="observations" cols="30" rows="6"></textarea>
+    <br><br>
+
+    <button type="submit">Close Order</button>
+  </form>
+    <script src="./scripts/09-working-with-forms.js"></script>
+</body>
+</html>

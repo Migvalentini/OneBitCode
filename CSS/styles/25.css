@@ -1,0 +1,196 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header, footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 30px;
+   width: 100%;
+   background-color: rgb(46, 40, 40);
+}
+footer button {
+   margin-top: 10px;
+}
+header img, footer img {
+   width: 150px;
+}
+header #buttons {
+   display: flex;
+   gap: 15px;
+   padding-top: 10px;
+}
+button, button a {
+   background-color: transparent;
+   text-decoration: none;
+   border: 2px solid transparent;
+   color: white;
+   cursor: pointer;
+}
+header button:hover, footer button:hover {
+   border-bottom: 2px solid white;
+}
+
+main > h1 {
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5em;
+   padding-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+main > p {
+   text-align: center;
+   font-weight: normal;
+   font-size: medium;
+   padding-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex: 1 0 200px;
+   gap: 20px;
+}
+#main .sport {
+   width: 200px;
+   height: max-content;
+   border-radius: 10px;
+   border: 2px solid transparent;
+   padding: 5px;
+}
+#main .sport:hover {
+   border-color:rgb(46, 40, 40);
+}
+#main .sport img {
+   width: 100%;
+   height: 130px;
+   border-radius: 10px;
+}
+#main .sport h2 {
+   font-weight: 100;
+   font-size: 1.2em;
+}
+#main .sport p {
+   text-indent: 20px;
+   text-align: justify;
+}
+
+#extra {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   width: 260px;
+   margin: 10px auto;
+   text-align: center;
+   background-color: rgb(51, 47, 47);
+   color: white;
+}
+#extra p {
+   font-size: 1.5em;
+   padding: 10px;
+}
+#extra .cat {
+   width: 200px;
+   height: auto;
+   border-radius: 10px;
+   margin: 15px;
+   padding: 10px 0px;
+   border: 2px solid transparent;
+}
+#extra .cat:hover {
+   border: 2px solid white;
+}
+#extra .cat img {
+   width: 90%;
+   height: 120px;
+   border-radius: 10px;
+}
+#extra .cat h2 {
+   font-weight: 100;
+   font-size: 1.2em;
+}
+
+@media (min-width: 420px){
+   header, footer {
+      flex-direction: row;
+   }
+   header #buttons {
+      padding-top: 0px;
+   }
+}
+@media (min-width: 768px){
+   header, footer {
+      height: 100px;
+   }
+   header img, footer img {
+      width: 250px;
+   }
+   button, button a {
+      font-size: 1.5em
+   }
+   button a {
+      font-size: 1em;
+   }
+   main > h1 {
+      font-size: 2em;
+   }
+   main > p {
+      font-size: 2em;
+   }
+   #extra {
+      width: max-content;
+   }
+   .categories {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+@media (min-width: 1024px){
+   .sections {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+   }
+   .categories {
+      grid-template-columns: 1fr;
+   }
+}
+@media (min-width: 1440px){
+   #main .sport {
+      width: 300px;
+      height: max-content;
+   }
+   #main .sport img {
+      width: 100%;
+      height: 200px;
+   }
+   #main .sport h2 {
+      font-weight: 100;
+      font-size: 2em;
+   }
+   #main .sport p {
+      font-size: 1.8em;
+   }
+   #extra p {
+      font-size: 2em;
+      font-weight: bold;
+   }
+   #extra .cat {
+      width: 400px;
+      height: auto;
+   }
+   #extra .cat img {
+      width: 90%;
+      height: 200px;
+   }
+   #extra .cat h2 {
+      font-weight: 100;
+      font-size: 2em;
+   }
+}

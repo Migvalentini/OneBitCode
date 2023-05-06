@@ -1,0 +1,10 @@
+body {
+   background-image: url('http://2.bp.blogspot.com/-jNE2SVQmbY4/VM-OaWZWsQI/AAAAAAAAhoM/SI56pAA81e0/s1600/foguete-lancamento-kennedy-space-orlando-nasa.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1 {
+   background-color: red;
+   border: 4px solid rgb(194, 61, 13);
+}

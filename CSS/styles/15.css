@@ -1,0 +1,57 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+   background-color: darkgray;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: row;
+   /*
+   flex-direction: row; = padrão
+   flex-direction: row-reversa; = linha reversa que é fixa ao lado direito
+   flex-direction: column; = coloca os itens em coluna e fixos em cima
+   flex-direction: column-reverse; = coloca os itens em coluna reversa e fixos embaixo   
+   */
+   gap: 10px;
+   /*
+   gap = espaçamento entre os items
+   row-gap = espaçamento quando estão em coluna
+   column-gap = espaçamento quando estão em linha
+   gap = junção dos dois anteriores
+   gap: coluna linha
+   */
+   justify-content: center;
+   /*
+   justify-content = alinhamento horizontal do flex container
+      center = meio
+      flex-end = lado direito
+      space-around = mesmo espaçamento na esquerda e direita
+      space-between = todos os itens mais separados possíveis
+      space-evenly = espaçamento igual entre os itens
+   */
+   align-items: center;
+   /*
+   align-items = alinhamento vertical do flex container
+      flex-start = padrão
+      stretch = esticado
+   */
+   flex-wrap: wrap;
+   /*
+   flex-wrap = quebra dos itens
+      wrap = quebra
+      nowrap = não quebra
+      wrap-reverse = quebra ao contrário
+   */
+}
+.item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 200px;
+   height: 200px;
+   border: 2px solid black;
+   background-color: white;
+   font-size: 2em;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "first-project-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "hello-world-npm",
+    "start": "node ../"
+  },
+  "author": "Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
