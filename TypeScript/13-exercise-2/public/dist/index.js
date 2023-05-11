@@ -1,21 +1,130 @@
-var planets = [];
+const planets = [];
 function addPlanet(name, coords, situation) {
+    planets.push({
+        name,
+        situation,
+        coordinates: coords,
+        satellites: []
+    });
+    alert(`Planet Registered: 
+   Name: ${name}
+   Coordinates: ${coords}
+   Situation: ${situation}`);
+}
+function findPlanet(name) {
+    const planet = planets.find(planet => planet.name === name);
+    return planet !== null && planet !== void 0 ? planet : false;
+}
+function promptValidPlanet(callback) {
+    const planetName = prompt("Enter Planet Name");
+    const planet = findPlanet(planetName);
+    if (planet) {
+        callback(planet);
+    }
+    else {
+        alert('Planet not found! Returning to menu...');
+    }
+}
+function promptValidSituation() {
+    let situation;
+    let validSituation = false;
+    while (!validSituation) {
+        const situationInput = prompt("Enter Planet Situation \n1 - inhabited \n2 - habitable \n3 - uninhabitable \n4 - uninhabited");
+        switch (situationInput) {
+            case '1':
+                situation = "inhabited";
+                validSituation = true;
+                break;
+            case '2':
+                situation = "habitable";
+                validSituation = true;
+                break;
+            case '3':
+                situation = "uninhabitable";
+                validSituation = true;
+                break;
+            case '4':
+                situation = "uninhabited";
+                validSituation = true;
+                break;
+            default:
+                alert('Invalid Situation');
+                break;
+        }
+    }
+    return situation;
+}
+function updatePlanetSituation(situation, planet) {
+    planet.situation = situation;
+    alert(`The situation of ${planet.name} was updated to ${situation}`);
+}
+function addSatellite(satellite, planet) {
+    planet.satellites.push(satellite);
+}
+function removeSatellite(name, planet) {
+    planet.satellites = planet.satellites.filter(satellite => satellite !== name);
+    alert(`The satellite ${name} was removed from the planet ${planet.name}`);
 }
 function firstMenu() {
+    const planetName = prompt("Enter Planet Name: ");
+    const coordinate1 = Number(prompt('Enter the coordinate 1:'));
+    const coordinate2 = Number(prompt('Enter the coordinate 2:'));
+    const coordinate3 = Number(prompt('Enter the coordinate 3:'));
+    const coordinate4 = Number(prompt('Enter the coordinate 4:'));
+    const situation = promptValidSituation();
+    const confirmation = confirm(`Do you confirm the addition of ${planetName}?
+   Coordinates: (${coordinate1}, ${coordinate2}, ${coordinate3}, ${coordinate4})
+   Situation: ${situation}`);
+    if (confirmation) {
+        addPlanet(planetName, [coordinate1, coordinate2, coordinate3, coordinate4], situation);
+    }
 }
 function secondMenu() {
+    promptValidPlanet(planet => {
+        const situation = promptValidSituation();
+        updatePlanetSituation(situation, planet);
+    });
 }
 function thirdMenu() {
+    promptValidPlanet(planet => {
+        const satellite = prompt('Enter Satellite Name: ');
+        addSatellite(satellite, planet);
+        console.log(planets);
+    });
 }
 function fourthMenu() {
+    promptValidPlanet(planet => {
+        const satellite = prompt('Enter Satellite Name: ');
+        removeSatellite(satellite, planet);
+        console.log(planets);
+    });
 }
 function fifthMenu() {
+    let list = 'Planets:\n';
+    planets.forEach(planet => {
+        const [a, b, c, d] = planet.coordinates;
+        list += `
+      Name: ${planet.name}
+      Coordinates: (${a}, ${b}, ${c}, ${d})
+      Situation: ${planet.situation}
+      Satellites: ${planet.satellites.length}\n`;
+        planet.satellites.forEach(satellite => {
+            list += `        - ${satellite}\n`;
+        });
+    });
+    alert(list);
 }
-var option = 0;
+let option = 0;
 while (option !== 6) {
-    var menu = "Enter a option:\n   1 - Add Planet\n   2 - Update Status of a Planet\n   3 - Add Satellite to a Planet\n   4 - Remove Satellite from a Planet\n   5 - List Saved Planets\n   6 - Exit";
-    var option_1 = Number(prompt(menu));
-    switch (option_1) {
+    let menu = `Enter a option:
+   1 - Add Planet
+   2 - Update Status of a Planet
+   3 - Add Satellite to a Planet
+   4 - Remove Satellite from a Planet
+   5 - List Saved Planets
+   6 - Exit`;
+    option = Number(prompt(menu));
+    switch (option) {
         case 1:
             firstMenu();
             break;
@@ -30,6 +139,9 @@ while (option !== 6) {
             break;
         case 5:
             fifthMenu();
+            break;
+        case 6:
+            alert('Exiting...');
             break;
         default:
             alert('Invalid Option, Enter a Correct!');
