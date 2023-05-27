@@ -62,5 +62,6 @@ class MilkWayPlanet implements Planet { // Must have all Planet type elements
 } */
 
 interface Planet {
-   satellites?: string[] // Doesn't cause error
+   satellites?: string[] // Doesn't cause error, because implements the satellites array
+   idk?: number
 }
