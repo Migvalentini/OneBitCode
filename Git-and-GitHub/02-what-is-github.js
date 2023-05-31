@@ -1,0 +1,8 @@
+/* 
+GITHUB:
+
+=> Service for host Git projects
+=> Allows private or Open Source projects
+=> Helps to develop networking between programmers
+=> Serves as an online portfolio
+*/
