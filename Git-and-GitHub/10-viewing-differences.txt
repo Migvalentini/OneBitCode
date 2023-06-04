@@ -1,0 +1,5 @@
+VIEWING THE DIFFERENCES:
+
+=> git diff
+=> git diff [file name]
+=> git diff --name-only

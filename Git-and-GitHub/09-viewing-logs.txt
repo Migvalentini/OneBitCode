@@ -1,0 +1,6 @@
+VIEWING THE LOGS:
+
+=> git log
+=> git log --pretty=oneline
+=> git log --pretty=oneline -1
+=> git log --stat
