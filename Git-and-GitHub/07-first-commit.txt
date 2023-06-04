@@ -1,0 +1,11 @@
+FIRST COMMIT:
+
+=> Create a new folder
+=> Enter folder path in terminal
+=> git init
+=> Create a new file
+=> git status = files unmonitored
+=> git add example.idk
+=> git status = changes to be submitted
+=> git commit -m 'Message here'
+=> git status = nothing to commit

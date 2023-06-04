@@ -1,0 +1,13 @@
+DOWNLOADING GIT:  
+
+=> https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git?_gl=1*1rnoxho*_ga*OTY5MzIyMzAxLjE2ODUxMTMzOTE.*_ga_37GXT4VGQK*MTY4NTkxMTkwNC4xNC4xLjE2ODU5MTE5MjguMC4wLjA.
+
+SETTING GIT:
+
+=> git config --global user.name "Miguel Valentini"
+=> git config --global user.email "miguelvalentini2006@gmail.com"
+=> git config --list
+
+CREATING A NEW REPOSITORY:
+
+=> git init

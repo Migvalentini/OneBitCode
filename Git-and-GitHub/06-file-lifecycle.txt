@@ -1,0 +1,8 @@
+FILES LIFECYCLE:
+
+=> The files can be monitored and unmonitored:
+   - Monitored: files that have already tracked commit; last snapshot files
+      - Unchanged
+      - Modified
+      - Selected
+   - Unmonitored: files that aren't in selection; files that still don't track commit
