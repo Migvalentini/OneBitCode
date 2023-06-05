@@ -1,0 +1,12 @@
+EXERCISE 3:
+
+=> Created a new folder
+=> Enter the folder path in terminal using cd
+=> git init
+=> git add .
+=> git commit -m 'Voyager1'
+=> git checkout -b voyager1
+=> git add voyager1.txt
+=> git commit -m 'Inclusion of Date'
+=> git checkout master
+=> git merge voyager1

@@ -1,0 +1,10 @@
+CREATING A NEW GITHUB REPOSITORY:
+
+=> Enter the account
+=> Get into 'Repositories'
+=> Click on the 'New' button
+=> Enter a repository name, a description and select between private and public
+=> Click on the 'Create Repository' button
+=> Create a README.md
+=> git remote add origin https://github.com/Migvalentini/[repository name].git
+=> git push origin master

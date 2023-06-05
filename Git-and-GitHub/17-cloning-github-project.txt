@@ -1,0 +1,7 @@
+CLONING A GITHUB PROJECT: 
+
+=> Enter in GITHUB
+=> Search for a project
+=> CLick in 'Code' Button
+=> Copy HTTPS link
+=> git clone [link]
