@@ -3,3 +3,8 @@ MERGE AND HOW TO USE IT:
 => Push changes from one branch to another
 => Only the target branch will change
 => git checkout -b vostok1
+=> Make changes or create a new file
+=> git add testing.txt
+=> git commit -m 'Test'
+=> git checkout master
+=> git merge vostok1
