@@ -1,0 +1,12 @@
+HOW TO USE BRANCHES:
+
+=> How to see the branches:
+   - git branch = master
+=> How to create a branch:
+   - git branch [name]
+=> How to switch branches:
+   - git checkout [name]
+=> How to delete a branch:
+   - git branch -d [name]
+=> how to create a branch and navigate to it:
+   - git checkout -b [name]

@@ -5,4 +5,4 @@ UNDOING CHANGES:
 => git add example2.txt
 => git commit --amend = change the commit information
 => git reset HEAD example.txt = remove from stage
-=> git checkout --example.txt = return the file to how it was before the commit
+=> git checkout -- example.txt = return the file to how it was before the commit

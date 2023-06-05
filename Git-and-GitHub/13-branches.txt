@@ -1,0 +1,5 @@
+BRANCHES:
+
+=> Branches serve to develop isolated features
+=> The main branch is master
+=> It's possible to mix branches with the merge command
