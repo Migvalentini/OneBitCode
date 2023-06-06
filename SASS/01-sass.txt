@@ -1,0 +1,9 @@
+SASS: 
+
+=> FrontEnd development tool
+=> Syntactically Awesome Stylesheets
+=> Preprocessed:
+   - .sass and .scss
+=> Organization:
+   - Facilities (variables, imports, functions)
+=> Process the file

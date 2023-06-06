@@ -1,0 +1,6 @@
+INSTALLATION AND CONFIGURATION:
+
+=> .sass = weird style type, because don't use {} and ;
+=> .scss = good style type, because use {} and ;
+=> npm install -g sass
+=> sass --watch sass/style.scss:css/style.css  

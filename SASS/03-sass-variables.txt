@@ -1,0 +1,4 @@
+SASS VARIABLES:
+
+=> Create a variable: $btn-color: #ff4843
+=> Use a variable: background-color: $btn-color
