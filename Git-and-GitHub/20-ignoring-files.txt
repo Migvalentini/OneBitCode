@@ -1,0 +1,5 @@
+IGNORING FILES:
+
+=> Create a .gitignore file
+=> Create a my-password.txt file
+=> In the .gitignore file, add the files you want not to push to GitHub

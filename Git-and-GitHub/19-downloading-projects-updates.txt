@@ -1,0 +1,3 @@
+DOWNLOADING PROJECTS UPDATES: 
+
+=> git pull origin master

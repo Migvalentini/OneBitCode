@@ -1,0 +1,12 @@
+EXERCISE 4:
+
+=> Create a new repository in GitHub called aprendizado-git-github
+=> git clone https://github.com/Migvalentini/aprendizado-git-github.git
+=> Create a README.md
+=> git add .
+=> git commit -m "Include of README.md"
+=> git checkout -b meu-aprendizado
+=> git commit -m 'Include of introdução.txt'
+=> git checkout main
+=> git merge meu-aprendizado
+=> git push origin main
