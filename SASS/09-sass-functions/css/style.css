@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  /*background-color: mix(black, yellow, 50%);*/
+  width: max-content;
+  font-size: 4em;
+}
+
+body {
+  background-color: blue;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(139, 46, 46);
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

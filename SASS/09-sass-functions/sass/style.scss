@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#title {
+   /*background-color: mix(black, yellow, 50%);*/
+   width: max-content;
+   font-size: 4em;
+}
+
+body {
+   background-color: blue;
+}
+
+@function color-title($background-color) {
+   @if(lightness($background-color) > 50) { // If Light, return Dark
+      @return black;
+   } @else { // If Dark, return Light
+      @return white;
+   }
+}
+
+@mixin background-color-mixin($color) {
+   background-color: $color;
+   color: color-title($color);
+}
+
+.container {
+   height: 100vh;
+   @include background-color-mixin(rgb(139, 46, 46));
+}

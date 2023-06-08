@@ -1,0 +1,8 @@
+CODE HARNESSING WITH MIXIN:
+
+=> Don't use at all times
+=> Serves to mix information in an unique block, making them much simpler to use
+=> @mixin name($variables...){
+   property: $variable;
+}
+=> @include name(values)

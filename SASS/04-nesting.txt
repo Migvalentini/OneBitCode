@@ -1,0 +1,4 @@
+NESTING:
+
+=> A different way to organize CSS files
+=> Lets you select an element within another element

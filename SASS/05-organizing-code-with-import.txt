@@ -1,0 +1,6 @@
+ORGANIZING CODE WITH IMPORT:
+
+=> Create a colors folder and inside it, a scss file with the colors variables
+=> Create a pages folder and inside it, a scss file with the home styles
+=> In the style.scss, import the colors using @import "./colors/colors.scss";
+=> In the style.scss, import the home using @import "./pages/home.scss";

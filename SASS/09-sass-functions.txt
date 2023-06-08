@@ -1,0 +1,6 @@
+SASS FUNCTIONS:
+
+=> The SASS functions usually we used and we rarely create one
+=> Example: mix function = mixes two colors from one weight
+=> background-color: mix(black, yellow, 50%)
+=> https://www.w3schools.com/sass/sass_functions_string.php

@@ -1,0 +1,5 @@
+MINIFY:
+
+=> A simple way to shorten the css code and help people using 3G to access our website
+=> In a css file with 30 lines, won't make a difference, but in a file with 500 lines, it will make a lot of difference
+=> sass sass/style.scss:css/style.css --style compressed

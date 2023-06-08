@@ -1,0 +1,14 @@
+INHERITANCE:
+
+=> Serves to inherit things from other elements
+=> element {
+   properties: values;
+   &other element {
+      properties: values;
+   }
+}
+
+EXTENDS: 
+
+=> Serves to extend properties of other elements
+=> @extend element;

@@ -1,7 +1,7 @@
 SASS: 
 
-=> FrontEnd development tool
 => Syntactically Awesome Stylesheets
+=> FrontEnd development tool
 => Preprocessed:
    - .sass and .scss
 => Organization:

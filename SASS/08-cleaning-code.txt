@@ -1,0 +1,8 @@
+CLEANING CODE:
+
+=> Create a folder called 'html-pages' to organize the html files
+=> Create a folder called 'pages' inside 'sass' folder to organize the pages styles
+=> Create a folder called 'variables' inside 'sass' folder to organize the variables used in the project
+=> Create a folder called 'colors' inside 'variables' folder to organize the colors variables in the project
+=> Create a folder called 'common' inside 'variables' folder to organize the common elements in the project
+=> Create a mixin in the 'common' file and use it in the 'register' and 'login' files
