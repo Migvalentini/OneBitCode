@@ -1,0 +1,7 @@
+BOOTSTRAP:
+
+=> FrontEnd Framework
+=> Facilitates and speeds up the creation of the front-end part
+=> Easily help with website responsibility just using div
+=> In actual version totally customizable and simplified
+=> Compatible with using others frameworks (Angular, VueJs, ReactJs)
