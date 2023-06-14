@@ -1,0 +1,33 @@
+TYPOGRAPHY:
+
+=> Heading:
+   - To use the heading styles just add a class from h1 to h6
+   - <p class="h1">Hello</p>
+
+=> Display:
+   - To use the display styles just add a class from display-1 to display-6
+
+=> Text Effects:
+   - To use the text effects styles just envelop the text with the respective tag
+   - highlight text = <mark>
+   - deleted text = <del>
+   - no longer accurate text = <s>
+   - addition to the document = <ins>
+   - underlined text = <u>
+   - fine print text = <small>
+   - bold text = <strong>
+   - italicized text = <em>
+
+=> Citation:
+   - To use the citation styles just add a figure tag with the 'text-[position]' class, a blockquote tag with the 'blockquote' class and a figcaption tag with the 'blockquote-footer' class
+   - <figure class="text-start">
+   -    <blockquote class="blockquote">
+   -       <p>A well-known quote, contained in a blockquote element.
+   -    </blockquote>
+   -    <figcaption class="blockquote-footer">
+   -       Someone famous in <cite title="Source Title">Source Title</cite>
+   -    </figcaption>
+   - </figure>
+
+=> Lists:
+   - To use the lists styles just add a ul tag with the 'list-unstyled' class and several li inside it

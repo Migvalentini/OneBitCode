@@ -1,0 +1,30 @@
+BUTTONS:
+
+=> Default Buttons:
+   - To use the default buttons styles just add the 'btn' class and the specific class according to the desired button style
+   - Primary Button = class="btn-primary">
+   - Secondary Button = class="btn-secondary">
+   - Success Button = class="btn-success">
+   - Danger Button = class="btn-danger">
+   - Warning Button = class="btn-warning">
+   - Info Button = class="btn-info">
+   - Light Button = class="btn-light">
+   - Dark Button = class="btn-dark">
+   - Link Button = class="btn-link">
+
+=> Outline Button Styles:
+   - To use the outline button style just add the 'btn' class and the specific class according to the desired outline style
+   - Primary Outline = class="btn-outline-primary">
+   - Secondary Outline = class="btn-outline-secondary">
+   - Success Outline = class="btn-outline-success">
+   - Danger Outline = class="btn-outline-danger">
+   - Warning Outline = class="btn-outline-warning">
+   - Info Outline = class="btn-outline-info">
+   - Light Outline = class="btn-outline-light">
+   - Dark Outline = class="btn-outline-dark">
+
+=> Button Size:
+   - To use the button size styles just add the 'btn' class and the specific class according to the desired size
+   - Large button = class="btn-primary btn-lg">
+   - Normal button = class="btn-primary">
+   - Small button = class="btn-primary btn-sm">
