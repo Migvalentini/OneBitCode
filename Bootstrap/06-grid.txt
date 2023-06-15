@@ -1,0 +1,3 @@
+GRID:
+
+=> To use grid effects just add the 'row', 'col', 'coll', 'col-[number]' classes and the 'col-sm' and 'col-md-[number]' classes to use the breakpoints

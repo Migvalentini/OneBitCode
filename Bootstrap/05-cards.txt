@@ -1,0 +1,5 @@
+CARDS:
+
+=> To use the cards styles jst add a div with the 'card' class
+=> We can also add the class-[style element] to add extra styles
+=> Inside it we can add the card elements
