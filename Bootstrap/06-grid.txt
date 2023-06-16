@@ -1,3 +1,4 @@
 GRID:
 
 => To use grid effects just add the 'row', 'col', 'coll', 'col-[number]' classes and the 'col-sm' and 'col-md-[number]' classes to use the breakpoints
+=> To add a gutter just add the 'g[orientation]-[number]' class in the 'div class="row"'
