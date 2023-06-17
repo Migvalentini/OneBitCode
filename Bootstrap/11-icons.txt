@@ -1,0 +1,5 @@
+ICONS:
+
+=> To install the icons in the html file just run the command '​npm i bootstrap-icons' in the terminal
+=> Or add '​<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">' in the html file
+=> After that you can add <i class="bi bi-[code]"></i>

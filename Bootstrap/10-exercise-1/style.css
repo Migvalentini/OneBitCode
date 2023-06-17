@@ -1,0 +1,48 @@
+body {
+   background-image: url('images/backgroundLp.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   color: white;
+}
+
+.container1 {
+   background-color: rgb(26, 24, 24);
+   width: 450px;
+   height: auto;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 20px;
+}
+
+.obc-logo {
+   width: 200px;
+}
+
+.input-name {
+   width: 100px;
+}
+
+.linkGitHub {
+   text-decoration: none;
+   color: rgb(182, 182, 182);
+}
+
+.linkGitHub:hover {
+   color: #494848;
+}
+
+@media (max-width: 767px) {
+   .container1 {
+      width: 90vw;
+   }
+   #p {
+      padding: 10px !important;
+      margin-left: 0px !important;
+   }
+}
