@@ -1,0 +1,10 @@
+FORMS:
+
+=> Components Overview:
+   - To use the forms styles just add the 'form-[element]' class
+=> Input Size:
+   - To use the inputs sizes just add the 'form-control-[lg/sm]' class
+=> File Upload:
+   - To use the file upload styles just add the 'form-control' class in file type input
+=> Color Picker:
+   - To use the color picker styles just add the 'form-control-color' class in color type input

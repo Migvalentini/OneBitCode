@@ -1,0 +1,6 @@
+MANIPULATING BOOTSTRAP WITH SASS:
+
+=> To use Bootstrap with Sass, you first need to launch the folder with 'npm init -y' and install bootstrap using 'npm i bootstrap'
+=> After that you need to add the bootstrap link and the js link
+=> To use Sass in in the project you need to run the 'sass --watch ./node_modules/bootstrap/scss:node_modules/bootstrap/dist/css' command in the terminal
+=> How you can change the colors and the variables in 'node_modules\bootstrap\scss\_variables.scss'

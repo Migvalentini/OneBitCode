@@ -1,0 +1,27 @@
+IMAGES AND UTILITIES:
+
+=> To use the fluidity effects of the images just add the 'img-fluid' class in the image
+   - <img src="..." class="img-fluid" alt="...">
+=> To use the thumbnail effects of the images just add the 'img-thumbnail' class in the image
+   - <img src="..." class="img-thumbnail" alt="...">
+=> To make a text more fluid inside a div just add the 'container-fluid' class in the div
+=> To add some extra utilities just add the respective class and the respective value (1 - 5):
+   - Margin: <div class="m-[num]"></div>
+   - Margin-x: <div class="mx-[num]"></div>
+   - Margin-y: <div class="my-[num]"></div>
+   - Margin Top: <div class="mt-[num]"></div>
+   - Margin Bottom: <div class="mb-[num]"></div>
+   - Margin End: <div class="me-[num]"></div>
+   - Margin Start: <div class="ms-[num]"></div>
+
+   - Padding: <div class="p-[num]"></div>
+   - Padding-x: <div class="py-[num]"></div>
+   - Padding-y: <div class="py-[num]"></div>
+   - Padding Top: <div class="pt-[num]"></div>
+   - Padding Bottom: <div class="pb-[num]"></div>
+   - Padding End: <div class="pe-[num]"></div>
+   - Padding Start: <div class="ps-[num]"></div>
+
+   - Display Flex:<div class="d-flex"></div>
+   - Display Block:<div class="d-block"></div>
+   - Display None:<div class="d-none"></div>
