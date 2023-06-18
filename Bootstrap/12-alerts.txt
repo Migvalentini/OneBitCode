@@ -1,0 +1,12 @@
+ALERTS:
+
+=> Standard Alerts:
+   - To use standard alerts styles just add the 'alert' and 'alert-[type]' classes and the 'alert' role in the element
+=> Alerts with Button:
+   - To use alerts with buttons just add some id to the element and add a script to show the message
+=> Alerts with Icons:
+   - To use alerts with icons just add the icons importation and add svg element in the html file
+   - <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+=> Alerts that disappear:
+   - To use alerts that disappear just add the 'alert-dismissible' class in the alert
+   - Futhermore add data-bs-dismiss="alert" in the button
