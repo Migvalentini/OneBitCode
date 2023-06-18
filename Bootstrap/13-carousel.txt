@@ -1,0 +1,8 @@
+CAROUSEL:
+
+=> Automatic Carousel:
+   - To use automatic carousel just add the 'carousel-inner' class in the father element and 'carousel-item' class in the children element
+=> Carousel with Controls:
+   - To use carousel with controls just add the buttons inside the carousel div with the 'carousel-control-prev' class and the atribute data-bs-slide="prev/next"
+=> Automatic Carousel with Marking and Controls:
+   - To use automatic carousel with marking and controls just add the buttons with data-bs-target="#carouselExampleIndicators", data-bs-slide-to="1" and aria-label="Slide 2"
