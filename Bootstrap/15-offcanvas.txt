@@ -1,0 +1,6 @@
+OFF CANVAS:
+
+=> Standard Off Canvas:
+   - To use standard off canvas just add the 'offcanvas' class in the father div and copy the off canvas structure
+=> Off Canvas Top:
+   - To use off canvas top just add the 'offcanvas' and 'offcanvas-top' classes in the father element and copy the of canvas top structure
