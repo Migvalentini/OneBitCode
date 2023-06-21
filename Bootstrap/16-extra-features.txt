@@ -1,0 +1,24 @@
+EXTRA FEATURES:
+
+=> Accordion:
+   - Used to hide and show hidden texts
+=> Badge:
+   - Used to show extra information on elements like notification number or something like that
+=> Breadcrumb:
+   - Used to improve site navigation
+=> Close Button:
+   - Used to close elements
+=> Collapse:
+   - Used to hide and show hidden texts
+=> Dropdown:
+   - Used to displaying lists of links and more
+=> Modal:
+   - Used to show important information in an overlay window
+=> Pagination:
+   - Used to improve site navigation
+=> Spinners:
+   - Used to show loading state in site
+=> Toasts:
+   - Used to mimic the push notifications that have been popularized by mobile and desktop operating systems
+=> Tooltip:
+   - Used to show texts when the elements are hovering
