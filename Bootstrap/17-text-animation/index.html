@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Text Animation</title>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <style>
+      body {
+         background-color: rgb(91, 91, 236);
+         color: white;
+         font-size: 40px;
+      }
+      .container {
+         min-height: 100vh;
+         background-image: linear-gradient(blue, rgb(52, 64, 226));
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+   </style>
+</head>
+<body>
+   <div data-aos="fade-up" class="container">
+      <p>Fade Up</p>
+   </div>
+   <div data-aos="fade-down" class="container">
+      <p>Fade Down</p>
+   </div>
+   <div data-aos="flip-left" class="container">
+      <p>Flip Left</p>
+   </div>
+   <div data-aos="flip-up" class="container">
+      <p>Flip Up</p>
+   </div>
+   <div data-aos="zoom-in" class="container">
+      <p>Zoom In</p>
+   </div>
+   <div data-aos="zoom-in-right" class="container">
+      <p>Zoom In Right</p>
+   </div>
+
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</html>

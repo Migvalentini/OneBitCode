@@ -1,0 +1,5 @@
+TEXT ANIMATION:
+
+=> To use text animation jst add the scripts in the head and body tags
+=> To use it now just config with data-aos-[type]="property"
+=> https://michalsnik.github.io/aos/?_gl=1*r9gq5u*_ga*OTY5MzIyMzAxLjE2ODUxMTMzOTE.*_ga_37GXT4VGQK*MTY4NzM5MjE4Mi41My4xLjE2ODczOTI4ODUuMC4wLjA.
