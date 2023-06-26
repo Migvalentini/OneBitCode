@@ -1,8 +1,6 @@
-@import url('./falcon9.css');
-
-.container {
-  height: 100px;
-  background-color: blue;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
