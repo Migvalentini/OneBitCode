@@ -3,4 +3,41 @@
   color: white;
 }
 
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.container00.container01 {
+  background-image: url(../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../images/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../images/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../images/home/04.jpg);
+}
+
 /*# sourceMappingURL=style.css.map */
