@@ -37,6 +37,24 @@
   border-radius: 5px;
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.emailOBC {
+  text-decoration: none;
+  color: #555252;
+}
+.emailOBC:hover {
+  color: #b9b9b9;
+}
+
 .footer {
   background-color: black;
   height: 15vh;
@@ -46,6 +64,9 @@
   align-items: center;
   justify-content: center;
 }
+.footer .copyOBC {
+  color: #555252;
+}
 .footer a {
   text-decoration: none;
   color: white;
@@ -53,10 +74,20 @@
 .footer a:hover {
   color: #b9b9b9;
 }
-.footer .copyOBC {
-  color: #555252;
+
+.emailOBC {
+  text-decoration: none;
+  color: white;
+}
+.emailOBC:hover {
+  color: #b9b9b9;
 }
 
+@media (max-width: 449px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
 @media (max-width: 405px) {
   .logoPc {
     width: 180px;
@@ -91,12 +122,12 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 750px) {
@@ -106,6 +137,226 @@
   .shortTitle, .mediumTitle {
     width: auto;
     font-size: 50px;
+  }
+}
+.container00.container05 {
+  background-image: url(../images/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../images/falcon9/02.jpg);
+}
+.container00.carousel01 {
+  background-image: url(../images/falcon9/03.jpg);
+}
+.container00.carousel02 {
+  background-image: url(../images/falcon9/04.jpg);
+}
+.container00.carousel03 {
+  background-image: url(../images/falcon9/05.jpg);
+}
+.container00.carousel04 {
+  background-image: url(../images/falcon9/06.jpg);
+}
+.container00.carousel05 {
+  background-image: url(../images/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../images/falcon9/08.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.numbers {
+  background-color: #000000;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 600px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 14%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 60px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 15px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 50vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 40px;
+  }
+  .falcon9Desc {
+    font-size: 15px;
+    line-height: auto;
+  }
+}
+.container00.container08 {
+  background-image: url(../images/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../images/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../images/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../images/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../images/humanFlight/05.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 23vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textDescEarth {
+    font-size: 16px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .container01Content img {
+    width: 100px;
   }
 }
 

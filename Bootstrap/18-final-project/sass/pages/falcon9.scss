@@ -1,0 +1,118 @@
+.container00 {
+   &.container05 {
+     background-image: url(../images/falcon9/01.jpg);
+   }
+   &.container06 {
+     background-image: url(../images/falcon9/02.jpg);
+   }
+   &.carousel01 {
+     background-image: url(../images/falcon9/03.jpg);
+   }
+   &.carousel02 {
+     background-image: url(../images/falcon9/04.jpg);
+   }
+   &.carousel03 {
+     background-image: url(../images/falcon9/05.jpg);
+   }
+   &.carousel04 {
+     background-image: url(../images/falcon9/06.jpg);
+   }
+   &.carousel05 {
+     background-image: url(../images/falcon9/07.jpg);
+   }
+   &.container07 {
+     background-image: url(../images/falcon9/08.jpg);
+   }
+ }
+
+.titleFalcon9 {
+   font-size: 90px;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 514;
+}
+
+.titleContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 80vh;
+}
+
+.numbers {
+   background-color: #000000;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   .titleNumb {
+      font-size: 90px;
+   } 
+   .subTitleNumb {
+      font-size: 20px;
+   }
+}
+
+.falcon9Desc {
+   font-size: 22px;
+   width: 600px;
+   line-height: 50px;
+}
+
+.containerFalcon9Desc {
+   display: grid;
+   height: 90vh;
+   align-items: center;
+   justify-content: left;
+}
+
+#overViewPosition {
+   width: 500px;
+   margin-left: 14%;
+   padding-top: 15%;
+}
+
+.carrosselSlide {
+   img {
+      width: 100vw;
+   }
+}
+
+@media (max-width: 768px) {
+   .numbers {
+      .titleNumb {
+         font-size: 60px;
+      } 
+      .subTitleNumb {
+         font-size: 15px;
+      }
+   }
+
+   #overViewPosition {
+      padding-top: 35%;
+   }
+
+   .falcon9Desc {
+      width: auto;
+   }
+}
+
+@media (max-width: 575px) {
+   .numbers {
+      height: 50vh;
+   }
+   #overViewPosition {
+      width: auto;
+      margin-left: auto;
+   }
+}
+
+@media (max-width: 375px) {
+   .titleFalcon9 {
+      font-size: 40px;
+   }
+   .falcon9Desc {
+      font-size: 15px;
+      line-height: auto;
+   }
+}
