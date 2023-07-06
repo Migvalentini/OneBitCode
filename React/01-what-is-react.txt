@@ -1,0 +1,7 @@
+WHAT IS REACT:
+
+=> Framework to develop interfaces (web and natives)
+=> Developed by Facebook, had your code opened at 2013
+=> React interfaces are builded from small block code called components
+=> Created for work with interactivity
+=> Why to use React? Because it is more simple, productive, maintainable and powerful
