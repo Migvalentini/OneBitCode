@@ -1,0 +1,20 @@
+REACT COMPONENTS:
+
+=> Components are small blocks that compose an interface
+=> Unlike HTML, where we write the entire page to a file, components defines small blocks that are reused and extensible
+=> Vantages:
+   - Can be written once and reused many time easily
+   - Speed up the process of modifying a specific part of the interface
+   - Makes the structure of a project more organized, with each file responsible for a small part
+=> function Button() {
+=>    return <button>My Button</button>
+=> }
+=> 
+=> function Container() {
+=>    return (
+=>       <div className="">
+=>          <h1></h1>
+=>          <p></p>
+=>       </div>
+=>    )
+=> }

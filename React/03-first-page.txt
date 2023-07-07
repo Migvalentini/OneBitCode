@@ -1,0 +1,3 @@
+FIRST REACT PAGE:
+
+=> A simple but not recommended way to use React

@@ -1,0 +1,4 @@
+VIRTUAL DOM:
+
+=> A virtual copy of the DOM where we make our interface changes
+=> React then compares the virtual DOM to the real DOM and re-render again all parts that have changed

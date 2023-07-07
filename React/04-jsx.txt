@@ -1,0 +1,7 @@
+JSX:
+
+=> JSX is an extension of the JavaScript language
+=> Not understood by browser, must be compiled (by Babel, per example)
+=> It is the format used by React to represent DOM elements
+=> Helps the process of writing the content that must be rendered on the screen
+=> const element = <h1>Hello World!</h1>
