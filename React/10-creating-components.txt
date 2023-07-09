@@ -1,0 +1,3 @@
+CREATING NEW REACT COMPONENTS:
+
+=> To create a new component just add a new function returning JSX and call it as an HTML tag

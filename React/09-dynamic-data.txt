@@ -1,0 +1,4 @@
+DYNAMIC DATA:
+
+=> To use dynamic data just add {} in JSX
+=> Inside it cannot use boolean type or conditional structures
