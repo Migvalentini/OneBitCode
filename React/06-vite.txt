@@ -1,0 +1,10 @@
+VITE:
+
+=> It is a framework that help us to build web applications
+=> Is composed of two main parts:
+   - A development server that works with ESM to supply Hot Module Replacement (HMR)
+   - A packer (Rollup) that comes pre-configured to generate optimized assets to production
+=> It is like webpack, but it is a solution more recommended currently:
+   - Faster
+   - Simpler
+=> To create a project with Vite just run 'npm create vite@latest'

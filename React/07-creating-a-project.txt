@@ -1,0 +1,8 @@
+CREATING A REACT PROJECT USING VITE:
+
+=> npm create vite@latest
+=> 07-creating-a-project
+=> React
+=> JavaScript
+=> cd 07-creating-a-project
+=> npm install
