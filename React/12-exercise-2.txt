@@ -1,0 +1,3 @@
+EXERCISE 2:
+
+=> In a new React project, create a component called “Card”. The component must be created in a separate file from “App.jsx” and must be styled according to the image below.

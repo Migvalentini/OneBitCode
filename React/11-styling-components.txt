@@ -1,0 +1,6 @@
+STYLING COMPONENTS:
+
+=> To style a component we can create a css file and import it in the 'main.jsx' file or organize the files in folders
+=> Another way to style them is with inline JS styles (camel case string values, : and ,)
+=> We also can use ternary operator to verify something and style it from the operation
+=> Finally, we can create a file named "App.module.css" and write css styles inside it and import it in the 'App.jsx' file and add the class {styles.app}
