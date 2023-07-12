@@ -1,0 +1,3 @@
+REUSING COMPONENTS:
+
+=> To reuse components just call them multiple times in the 'App.jsx'

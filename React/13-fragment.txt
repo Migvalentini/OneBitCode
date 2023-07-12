@@ -1,0 +1,5 @@
+FRAGMENT:
+
+=> JSX expressions must have one parent element
+=> Helps to clean the HTML
+=> <></> === <Fragment></Fragment>

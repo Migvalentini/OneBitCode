@@ -1,0 +1,3 @@
+EXERCISE 3: 
+
+=> In a new React project with Vite create a component called “Profile” that is able to accept as props avatar, name, bio, email, phone, githubUrl, linkedinUrl and twitterUrl. The component's profile should then render a profile card as per the image below.
