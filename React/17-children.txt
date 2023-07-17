@@ -1,0 +1,3 @@
+CHILDREN:
+
+=> 'Children' props is used to add another elements inside a Component with the respective styles
