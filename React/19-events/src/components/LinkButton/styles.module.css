@@ -1,0 +1,19 @@
+button {
+   display: inline-block;
+   padding: 10px 20px;
+  background-image: linear-gradient(to right, rgb(38, 38, 243), rgb(159, 87, 201));
+   color: white;
+   border-radius: 4px;
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   margin: 2px;
+   transition: background-color 0.2s ease;
+}
+
+
+button:hover {
+   background-color: #9e73d6;
+}

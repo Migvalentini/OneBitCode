@@ -1,0 +1,3 @@
+EVENTS:
+
+=> Events in React look like in JS because we just need to add the on[event] in the component and it will work
