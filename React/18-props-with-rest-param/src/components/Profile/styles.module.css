@@ -1,0 +1,33 @@
+body {
+   background-color: rgb(107, 107, 209);
+}
+
+.app {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.container {
+   background-color: rgb(255, 255, 255);
+   height: fit-content;
+   width: fit-content;
+   margin: auto;
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   text-align: center;
+}
+
+.avatar {
+   border-radius: 50%;
+   height: 150px;
+   width: 150px;
+   margin-top: 20px;
+}
+
+.name {
+   font-size: 30px;
+   margin: 20px 0px;
+}
