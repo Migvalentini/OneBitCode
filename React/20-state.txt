@@ -1,0 +1,3 @@
+STATE:
+
+=> State allows us to have information on the screen that is dynamically rendered and updated according to changes in values in the JS
