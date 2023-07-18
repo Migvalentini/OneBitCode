@@ -1,0 +1,7 @@
+HOOKS:
+
+=> Hooks are special functions from React that allows us to connect to the internal system
+=> Some examples: useState, useRef, useEffect, useMemo, etc
+=> Rules:
+   - Where to use hooks: We can only call a hook inside a function that is a React component
+   - Hooks Order: We cannot use a hook outside the top-level of the function or inside a conditionally
