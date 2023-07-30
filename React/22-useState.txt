@@ -1,0 +1,5 @@
+USE STATE:
+
+- We can create a function that has a logic and return something and call it with useState
+- But in the above situation, the function is called on every button click and to resolve it, we can call callback function
+- If we need use a hook twice, we need call callback function because React can't access the previous value

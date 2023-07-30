@@ -1,0 +1,3 @@
+EXERCISE 4:
+
+=> Create a new React application with Vite that is capable of generating random passwords. The password should be displayed on the screen along with a “Copy” button that copies the password text to the download area. After copying, the button for the download area should change its text to “Copied!” and, after generating a new password, the text should go back to “Copy”.
